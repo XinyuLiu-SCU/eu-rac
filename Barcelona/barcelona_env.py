@@ -11,7 +11,7 @@ from pathlib import Path
 from collections import defaultdict
 import heapq
 
-NETWORK_DIR = Path(__file__).parent / 'network'
+NETWORK_DIR = Path(__file__).parent.parent / 'network' / 'Barcelona'
 
 
 class BarcelonaEnv:

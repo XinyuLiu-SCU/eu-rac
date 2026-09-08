@@ -20,7 +20,7 @@ import torch.optim as optim
 
 WITH_WIS = False
 
-_NET_DIR = Path(__file__).parent.parent / 'Networks' / 'Networks' / 'Anaheim'
+_NET_DIR = Path(__file__).parent.parent / 'network' / 'Anaheim'
 _TIME_STEP = 0.25
 _net_df = __import__('pandas').read_csv(_NET_DIR / 'Anaheim_network.csv')
 _nodes_set = set()

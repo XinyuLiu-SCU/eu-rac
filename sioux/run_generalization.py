@@ -77,7 +77,7 @@ BEST_CFG = dict(lr_e=0.2, lr_d=0.2, lr_actor=0.1, entropy_coef=0.02, warm_logit=
 # ============================================================
 # t_LET and budgets
 # ============================================================
-_NET_DIR = Path(__file__).parent.parent / 'Networks' / 'Networks' / 'SiouxFalls'
+_NET_DIR = Path(__file__).parent.parent / 'network' / 'SiouxFalls'
 _net_df  = pd.read_csv(_NET_DIR / 'SiouxFalls_network.csv')
 
 _mean_edges = {}

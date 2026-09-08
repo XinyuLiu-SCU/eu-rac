@@ -9,7 +9,7 @@ from pathlib import Path
 from collections import defaultdict
 import heapq
 
-NETWORK_DIR = Path(__file__).parent.parent / 'Networks' / 'Networks' / 'Chicago_Sketch'
+NETWORK_DIR = Path(__file__).parent.parent / 'network' / 'Chicago_Sketch'
 
 
 class ChicagoEnv:

@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 
 
-NETWORK_DIR = Path(__file__).resolve().parent / "Chengdu_network"
+NETWORK_DIR = Path(__file__).resolve().parent.parent / "network" / "Chengdu"
 
 PERIOD_FILES = {
     "weekday_peak": "Weekday_Peak_network.csv",

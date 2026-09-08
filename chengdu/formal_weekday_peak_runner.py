@@ -8,7 +8,7 @@ sys.path.insert(0, str(root))
 import Chengdu_mean as runner
 
 runner.RESULTS_DIR = root / "formal_weekday_peak_eta02_3od_3budget_5seed_results"
-uncertainty = root / "Chengdu_network" / "uncertainty" / "weekday_peak_uncertain_actions.json"
+uncertainty = root.parent / "network" / "Chengdu" / "uncertainty" / "weekday_peak_uncertain_actions.json"
 for origin, destination in ((9, 189), (3, 140), (35, 111)):
     args = [
         "--run-all", "--algorithms", "eurac", "pql", "pulse", "segac", "--period", "weekday_peak",

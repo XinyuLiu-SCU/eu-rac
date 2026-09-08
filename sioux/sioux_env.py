@@ -3,7 +3,7 @@ import pandas as pd
 from pathlib import Path
 from collections import defaultdict
 
-NETWORK_DIR = Path(__file__).parent.parent / 'Networks' / 'Networks' / 'SiouxFalls'
+NETWORK_DIR = Path(__file__).parent.parent / 'network' / 'SiouxFalls'
 
 
 class SiouxEnv:

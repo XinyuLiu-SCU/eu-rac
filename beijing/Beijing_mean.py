@@ -25,7 +25,7 @@ if str(ROOT) not in sys.path:
 from beijing_env import BeijingEnv, normalize_period
 from evaluator import evaluate_policy
 
-NETWORK_DIR = ROOT / "Beijing_network"
+NETWORK_DIR = ROOT.parent / "network" / "Beijing"
 REPORT_DIR = ROOT / "report"
 OUTPUT_DIR = ROOT / "outputs"
 CHECKPOINT_DIR = ROOT / "checkpoints"
@@ -859,7 +859,7 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--budget-ratios", nargs="*", help="Budget ratios for batch mode, e.g. --budget-ratios 0.975 1.0 1.025")
     parser.add_argument("--eta", type=float, default=0.2, help="Single execution uncertainty eta")
     parser.add_argument("--etas", nargs="*", help="Etas for batch mode, e.g. --etas 0.2")
-    parser.add_argument("--uncertainty-file", type=Path, default=None, help="Period uncertainty JSON file or directory; default uses Beijing_network/uncertainty")
+    parser.add_argument("--uncertainty-file", type=Path, default=None, help="Period uncertainty JSON file or directory; default uses network/Beijing/uncertainty")
     parser.add_argument("--mc-runs", type=int, default=200, help="Monte Carlo rollouts for evaluation")
     parser.add_argument("--episodes", type=int, default=10000, help="Training episodes for RL algorithms")
     parser.add_argument("--validation-best", dest="validation_best", action="store_true", default=True, help="Select EU-RAC best checkpoint by validation MC during training")

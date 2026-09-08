@@ -8,7 +8,7 @@ import pandas as pd
 from pathlib import Path
 from collections import defaultdict
 
-NETWORK_DIR = Path(__file__).parent.parent / 'Networks' / 'Networks' / 'Anaheim'
+NETWORK_DIR = Path(__file__).parent.parent / 'network' / 'Anaheim'
 ANAHEIM_TIME_STEP = 0.25
 
 

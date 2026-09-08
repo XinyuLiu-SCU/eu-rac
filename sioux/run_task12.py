@@ -48,7 +48,7 @@ from evaluator import evaluate_policy
 # ------------------------------------------------------------------
 #  t_LET Dijkstra
 # ------------------------------------------------------------------
-_NET_DIR = Path(__file__).parent.parent / 'Networks' / 'Networks' / 'SiouxFalls'
+_NET_DIR = Path(__file__).parent.parent / 'network' / 'SiouxFalls'
 _net_df  = pd.read_csv(_NET_DIR / 'SiouxFalls_network.csv')
 
 _mean_edges = {}

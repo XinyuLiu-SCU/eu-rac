@@ -96,7 +96,7 @@ if hasattr(sys.stdout, "reconfigure"):
 # ============================================================
 # Dijkstra
 # ============================================================
-_NET_DIR = Path(__file__).parent.parent / 'Networks' / 'Networks' / 'Anaheim'
+_NET_DIR = Path(__file__).parent.parent / 'network' / 'Anaheim'
 _net_df = pd.read_csv(_NET_DIR / 'Anaheim_network.csv')
 
 _mean_edges = {}

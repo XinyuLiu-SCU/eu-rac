@@ -17,7 +17,7 @@ eu-rac/
   func.py
   env.py
   od_selection.py
-  Networks/
+  network/
   data/
   sioux/
   Anaheim/
@@ -43,28 +43,30 @@ The network-specific runners call into shared benchmark implementations for DOT,
 This release includes the network files, uncertainty descriptions, and final OD files needed by the public entry points.
 
 ```text
-Networks/Networks/SiouxFalls/
+network/SiouxFalls/
   SiouxFalls_network.csv
   SiouxFalls_0.4_random_sigma.npy
-Networks/Networks/Anaheim/
+network/Anaheim/
   Anaheim_network.csv
   Anaheim_0.4_random_sigma.npy
-Networks/Networks/Chicago_Sketch/
+network/Chicago_Sketch/
   Chicago_Sketch_network.csv
   Chicago_Sketch_0.4_random_sigma.npy
-Barcelona/network/
+network/Barcelona/
   Barcelona_network.csv
   Barcelona_cov.npy
-beijing/Beijing_network/
+network/Beijing/
   Beijing_*.csv
   Beijing_Pairs.npy
   uncertainty/*.json
-chengdu/Chengdu_network/
+network/Chengdu/
   *_network.csv
   uncertainty/*.json
 data/
   */od_pairs.csv
 ```
+
+The `.npy` files store the edge-level variability parameters used by the stochastic travel-time model; they are part of the benchmark environment rather than generated training outputs.
 
 For the paper experiments, the large benchmark networks use 50 representative OD pairs in total. The Beijing and Chengdu releases store the period labels in the public OD table, so the period-specific runners filter from the same published set. Sioux Falls uses a smaller representative OD set. OD pairs are screened by connectivity, feasible travel-time budget, and non-trivial routing uncertainty.
 

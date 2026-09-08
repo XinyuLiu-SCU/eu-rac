@@ -21,7 +21,7 @@ if _CHENGDU_PERIOD not in _PERIOD_FILES:
         f"Unsupported CHENGDU_PERIOD {_CHENGDU_PERIOD!r}. "
         f"Supported periods: {', '.join(_PERIOD_FILES)}"
     )
-_NET_DIR = Path(__file__).parent / 'Chengdu_network'
+_NET_DIR = Path(__file__).parent.parent / 'network' / 'Chengdu'
 _net_df = __import__('pandas').read_csv(_NET_DIR / _PERIOD_FILES[_CHENGDU_PERIOD])
 _net_df = _net_df[[c for c in _net_df.columns if not str(c).startswith('Unnamed')]]
 _mean_edges = {}; _sigma_edges = {}

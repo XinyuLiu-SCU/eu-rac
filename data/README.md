@@ -1,6 +1,6 @@
 # OD Selection Files
 
-This directory contains the final OD files intended for the public EU-RAC release. Network CSV/NPY files are stored in the paths used directly by the environment modules, such as `Networks/Networks/*`, `Barcelona/network`, `beijing/Beijing_network`, and `chengdu/Chengdu_network`.
+This directory contains the final OD files intended for the public EU-RAC release. Network CSV/NPY files are stored in the paths used directly by the environment modules, such as `network/*`.
 
 ## File Status
 

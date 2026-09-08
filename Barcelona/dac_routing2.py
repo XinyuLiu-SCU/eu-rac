@@ -7,7 +7,7 @@ import torch.nn as nn
 import torch.optim as optim
 
 #  Network data (module-level, shared) 
-_NET_DIR = Path(__file__).parent / 'network'
+_NET_DIR = Path(__file__).parent.parent / 'network' / 'Barcelona'
 _net_df = __import__('pandas').read_csv(_NET_DIR / 'Barcelona_network.csv')
 _mean_edges = {}; _sigma_edges = {}
 _out_degree = defaultdict(int); _successors_g = defaultdict(list)

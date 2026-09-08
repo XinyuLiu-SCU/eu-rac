@@ -34,7 +34,7 @@ if _BEIJING_PERIOD not in _PERIOD_FILES:
         f"Unsupported BEIJING_PERIOD {_BEIJING_PERIOD!r}. "
         f"Supported periods: {', '.join(_PERIOD_FILES)}"
     )
-_NET_DIR = Path(__file__).parent / 'Beijing_network'
+_NET_DIR = Path(__file__).parent.parent / 'network' / 'Beijing'
 _net_df = __import__('pandas').read_csv(_NET_DIR / _PERIOD_FILES[_BEIJING_PERIOD])
 _net_df = _net_df[[c for c in _net_df.columns if not str(c).startswith('Unnamed')]]
 _nodes_set = set()
