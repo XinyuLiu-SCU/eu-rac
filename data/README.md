@@ -1,6 +1,6 @@
 # OD Selection Files
 
-This directory contains the OD files intended for the public EU-RAC release.
+This directory contains the final OD files intended for the public EU-RAC release. Network CSV/NPY files are stored in the paths used directly by the environment modules, such as `Networks/Networks/*`, `Barcelona/network`, `beijing/Beijing_network`, and `chengdu/Chengdu_network`.
 
 ## File Status
 
@@ -13,7 +13,7 @@ This directory contains the OD files intended for the public EU-RAC release.
 
 ## Public Benchmark Policy
 
-The public release keeps only the final OD files used in the paper. Large static networks use 50 representative OD pairs in total. Beijing and Chengdu store the period labels in the released OD table so the period-specific runners can filter from the same public set. Sioux Falls uses a smaller representative OD set.
+The public release keeps only the final OD files used in the paper. Large static networks use 50 representative OD pairs in total. Beijing and Chengdu store the period labels in the released OD table so the period-specific runners can filter from the same public set. Sioux Falls uses a smaller representative OD set. Use `od_selection.py` only when generating a new screened OD set from the included network data.
 
 All OD CSV files use at least these columns:
 

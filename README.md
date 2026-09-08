@@ -8,7 +8,6 @@ This repository contains the implementation used for the EU-RAC experiments in t
 eu-rac/
   README.md
   requirements.txt
-  .gitignore
   main.py
   eu_rac.py
   eu_rac_tabular.py
@@ -18,7 +17,14 @@ eu-rac/
   func.py
   env.py
   od_selection.py
+  Networks/
   data/
+  sioux/
+  Anaheim/
+  Barcelona/
+  Chicago/
+  beijing/
+  chengdu/
 ```
 
 Temporary diagnostics, checkpoints, plotting previews, intermediate screening files, and historical development variants are excluded from the public release.
@@ -34,33 +40,30 @@ The network-specific runners call into shared benchmark implementations for DOT,
 
 ## Datasets and OD Pairs
 
-Each benchmark network includes the network files, uncertainty description, and the final OD files used in the paper.
+This release includes the network files, uncertainty descriptions, and final OD files needed by the public entry points.
 
 ```text
+Networks/Networks/SiouxFalls/
+  SiouxFalls_network.csv
+  SiouxFalls_0.4_random_sigma.npy
+Networks/Networks/Anaheim/
+  Anaheim_network.csv
+  Anaheim_0.4_random_sigma.npy
+Networks/Networks/Chicago_Sketch/
+  Chicago_Sketch_network.csv
+  Chicago_Sketch_0.4_random_sigma.npy
+Barcelona/network/
+  Barcelona_network.csv
+  Barcelona_cov.npy
+beijing/Beijing_network/
+  Beijing_*.csv
+  Beijing_Pairs.npy
+  uncertainty/*.json
+chengdu/Chengdu_network/
+  *_network.csv
+  uncertainty/*.json
 data/
-  sioux/
-    network files
-    od_pairs.csv
-  anaheim/
-    network files
-    uncertainty files
-    od_pairs.csv
-  barcelona/
-    network files
-    uncertainty files
-    od_pairs.csv
-  chicago/
-    network files
-    uncertainty files
-    od_pairs.csv
-  beijing/
-    network files
-    uncertainty files
-    od_pairs.csv
-  chengdu/
-    network files
-    uncertainty files
-    od_pairs.csv
+  */od_pairs.csv
 ```
 
 For the paper experiments, the large benchmark networks use 50 representative OD pairs in total. The Beijing and Chengdu releases store the period labels in the public OD table, so the period-specific runners filter from the same published set. Sioux Falls uses a smaller representative OD set. OD pairs are screened by connectivity, feasible travel-time budget, and non-trivial routing uncertainty.
@@ -81,16 +84,16 @@ Some baselines require optional solvers:
 
 ## Quick Start
 
-After preparing the data files, run a smoke test:
+Run a smoke test:
 
 ```bash
-python main.py --network sioux --algorithm eurac-tabular --od-file data/sioux/od_pairs.csv
+python main.py --network sioux --algorithm eurac-tabular --od-file data/sioux/od_pairs.csv --episodes 1 --eval-episodes 1
 ```
 
 For a large network, use the neural EU-RAC implementation:
 
 ```bash
-python main.py --network chicago --algorithm eurac --od-file data/chicago/od_pairs.csv
+python main.py --network chicago --algorithm eurac --od-file data/chicago/od_pairs.csv --episodes 1 --eval-episodes 1
 ```
 
 ## Reproducing Experiments
@@ -101,7 +104,7 @@ The main experiments use the selected OD pairs and budget settings reported in t
 python main.py --network anaheim --algorithm eurac --od-file data/anaheim/od_pairs.csv
 ```
 
-Use `od_selection.py` to regenerate OD lists when needed. The released OD files are the authoritative OD sets for reproducing the paper tables.
+Use `od_selection.py` to generate new screened OD lists when needed. The released `data/*/od_pairs.csv` files are the authoritative OD sets for reproducing the paper tables.
 
 ## Code Style
 
