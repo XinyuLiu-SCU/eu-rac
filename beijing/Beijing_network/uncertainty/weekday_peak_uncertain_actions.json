@@ -1,0 +1,267 @@
+{
+  "period": "weekday_peak",
+  "seed": 20260725,
+  "selection_rule": "critical path actions from Pulse reference paths plus random eligible decision-node actions",
+  "uncertain_actions": [
+    {
+      "node": 4,
+      "intended": 27,
+      "source": "critical"
+    },
+    {
+      "node": 28,
+      "intended": 27,
+      "source": "critical"
+    },
+    {
+      "node": 30,
+      "intended": 31,
+      "source": "critical"
+    },
+    {
+      "node": 65,
+      "intended": 150,
+      "source": "critical"
+    },
+    {
+      "node": 101,
+      "intended": 62,
+      "source": "critical"
+    },
+    {
+      "node": 102,
+      "intended": 103,
+      "source": "critical"
+    },
+    {
+      "node": 116,
+      "intended": 4,
+      "source": "critical"
+    },
+    {
+      "node": 151,
+      "intended": 152,
+      "source": "critical"
+    },
+    {
+      "node": 152,
+      "intended": 149,
+      "source": "critical"
+    },
+    {
+      "node": 163,
+      "intended": 188,
+      "source": "critical"
+    },
+    {
+      "node": 164,
+      "intended": 203,
+      "source": "critical"
+    },
+    {
+      "node": 166,
+      "intended": 53,
+      "source": "critical"
+    },
+    {
+      "node": 238,
+      "intended": 294,
+      "source": "critical"
+    },
+    {
+      "node": 246,
+      "intended": 238,
+      "source": "critical"
+    },
+    {
+      "node": 250,
+      "intended": 251,
+      "source": "critical"
+    },
+    {
+      "node": 279,
+      "intended": 552,
+      "source": "critical"
+    },
+    {
+      "node": 289,
+      "intended": 288,
+      "source": "critical"
+    },
+    {
+      "node": 294,
+      "intended": 295,
+      "source": "critical"
+    },
+    {
+      "node": 299,
+      "intended": 250,
+      "source": "critical"
+    },
+    {
+      "node": 302,
+      "intended": 303,
+      "source": "critical"
+    },
+    {
+      "node": 303,
+      "intended": 299,
+      "source": "critical"
+    },
+    {
+      "node": 304,
+      "intended": 305,
+      "source": "critical"
+    },
+    {
+      "node": 305,
+      "intended": 288,
+      "source": "critical"
+    },
+    {
+      "node": 306,
+      "intended": 305,
+      "source": "critical"
+    },
+    {
+      "node": 310,
+      "intended": 304,
+      "source": "critical"
+    },
+    {
+      "node": 311,
+      "intended": 310,
+      "source": "critical"
+    },
+    {
+      "node": 337,
+      "intended": 551,
+      "source": "critical"
+    },
+    {
+      "node": 551,
+      "intended": 279,
+      "source": "critical"
+    },
+    {
+      "node": 552,
+      "intended": 575,
+      "source": "critical"
+    },
+    {
+      "node": 8,
+      "intended": 10,
+      "source": "random"
+    },
+    {
+      "node": 42,
+      "intended": 58,
+      "source": "random"
+    },
+    {
+      "node": 48,
+      "intended": 155,
+      "source": "random"
+    },
+    {
+      "node": 74,
+      "intended": 75,
+      "source": "random"
+    },
+    {
+      "node": 76,
+      "intended": 192,
+      "source": "random"
+    },
+    {
+      "node": 85,
+      "intended": 205,
+      "source": "random"
+    },
+    {
+      "node": 92,
+      "intended": 194,
+      "source": "random"
+    },
+    {
+      "node": 100,
+      "intended": 64,
+      "source": "random"
+    },
+    {
+      "node": 130,
+      "intended": 129,
+      "source": "random"
+    },
+    {
+      "node": 135,
+      "intended": 215,
+      "source": "random"
+    },
+    {
+      "node": 153,
+      "intended": 150,
+      "source": "random"
+    },
+    {
+      "node": 190,
+      "intended": 106,
+      "source": "random"
+    },
+    {
+      "node": 215,
+      "intended": 158,
+      "source": "random"
+    },
+    {
+      "node": 272,
+      "intended": 249,
+      "source": "random"
+    },
+    {
+      "node": 325,
+      "intended": 364,
+      "source": "random"
+    },
+    {
+      "node": 328,
+      "intended": 326,
+      "source": "random"
+    },
+    {
+      "node": 380,
+      "intended": 377,
+      "source": "random"
+    },
+    {
+      "node": 383,
+      "intended": 379,
+      "source": "random"
+    },
+    {
+      "node": 392,
+      "intended": 398,
+      "source": "random"
+    },
+    {
+      "node": 437,
+      "intended": 438,
+      "source": "random"
+    },
+    {
+      "node": 491,
+      "intended": 494,
+      "source": "random"
+    },
+    {
+      "node": 505,
+      "intended": 426,
+      "source": "random"
+    },
+    {
+      "node": 524,
+      "intended": 525,
+      "source": "random"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "period": "weekend_offpeak",
+  "seed": 20260725,
+  "selection_rule": "critical path actions from Pulse reference paths plus random eligible decision-node actions",
+  "uncertain_actions": [
+    {
+      "node": 4,
+      "intended": 27,
+      "source": "critical"
+    },
+    {
+      "node": 30,
+      "intended": 31,
+      "source": "critical"
+    },
+    {
+      "node": 65,
+      "intended": 150,
+      "source": "critical"
+    },
+    {
+      "node": 101,
+      "intended": 62,
+      "source": "critical"
+    },
+    {
+      "node": 102,
+      "intended": 103,
+      "source": "critical"
+    },
+    {
+      "node": 116,
+      "intended": 4,
+      "source": "critical"
+    },
+    {
+      "node": 119,
+      "intended": 120,
+      "source": "critical"
+    },
+    {
+      "node": 120,
+      "intended": 116,
+      "source": "critical"
+    },
+    {
+      "node": 130,
+      "intended": 119,
+      "source": "critical"
+    },
+    {
+      "node": 151,
+      "intended": 152,
+      "source": "critical"
+    },
+    {
+      "node": 152,
+      "intended": 149,
+      "source": "critical"
+    },
+    {
+      "node": 164,
+      "intended": 203,
+      "source": "critical"
+    },
+    {
+      "node": 166,
+      "intended": 53,
+      "source": "critical"
+    },
+    {
+      "node": 222,
+      "intended": 130,
+      "source": "critical"
+    },
+    {
+      "node": 229,
+      "intended": 473,
+      "source": "critical"
+    },
+    {
+      "node": 238,
+      "intended": 294,
+      "source": "critical"
+    },
+    {
+      "node": 246,
+      "intended": 238,
+      "source": "critical"
+    },
+    {
+      "node": 250,
+      "intended": 251,
+      "source": "critical"
+    },
+    {
+      "node": 279,
+      "intended": 552,
+      "source": "critical"
+    },
+    {
+      "node": 289,
+      "intended": 336,
+      "source": "critical"
+    },
+    {
+      "node": 294,
+      "intended": 295,
+      "source": "critical"
+    },
+    {
+      "node": 299,
+      "intended": 250,
+      "source": "critical"
+    },
+    {
+      "node": 300,
+      "intended": 484,
+      "source": "critical"
+    },
+    {
+      "node": 302,
+      "intended": 303,
+      "source": "critical"
+    },
+    {
+      "node": 303,
+      "intended": 299,
+      "source": "critical"
+    },
+    {
+      "node": 304,
+      "intended": 305,
+      "source": "critical"
+    },
+    {
+      "node": 305,
+      "intended": 277,
+      "source": "critical"
+    },
+    {
+      "node": 306,
+      "intended": 307,
+      "source": "critical"
+    },
+    {
+      "node": 307,
+      "intended": 546,
+      "source": "critical"
+    },
+    {
+      "node": 310,
+      "intended": 304,
+      "source": "critical"
+    },
+    {
+      "node": 311,
+      "intended": 310,
+      "source": "critical"
+    },
+    {
+      "node": 313,
+      "intended": 310,
+      "source": "critical"
+    },
+    {
+      "node": 336,
+      "intended": 279,
+      "source": "critical"
+    },
+    {
+      "node": 339,
+      "intended": 229,
+      "source": "critical"
+    },
+    {
+      "node": 401,
+      "intended": 313,
+      "source": "critical"
+    },
+    {
+      "node": 402,
+      "intended": 401,
+      "source": "critical"
+    },
+    {
+      "node": 404,
+      "intended": 307,
+      "source": "critical"
+    },
+    {
+      "node": 484,
+      "intended": 345,
+      "source": "critical"
+    },
+    {
+      "node": 552,
+      "intended": 575,
+      "source": "critical"
+    },
+    {
+      "node": 2,
+      "intended": 24,
+      "source": "random"
+    },
+    {
+      "node": 77,
+      "intended": 94,
+      "source": "random"
+    },
+    {
+      "node": 80,
+      "intended": 77,
+      "source": "random"
+    },
+    {
+      "node": 82,
+      "intended": 61,
+      "source": "random"
+    },
+    {
+      "node": 87,
+      "intended": 186,
+      "source": "random"
+    },
+    {
+      "node": 89,
+      "intended": 67,
+      "source": "random"
+    },
+    {
+      "node": 96,
+      "intended": 61,
+      "source": "random"
+    },
+    {
+      "node": 263,
+      "intended": 264,
+      "source": "random"
+    },
+    {
+      "node": 272,
+      "intended": 249,
+      "source": "random"
+    },
+    {
+      "node": 287,
+      "intended": 276,
+      "source": "random"
+    },
+    {
+      "node": 296,
+      "intended": 237,
+      "source": "random"
+    },
+    {
+      "node": 314,
+      "intended": 266,
+      "source": "random"
+    },
+    {
+      "node": 328,
+      "intended": 327,
+      "source": "random"
+    },
+    {
+      "node": 343,
+      "intended": 344,
+      "source": "random"
+    },
+    {
+      "node": 363,
+      "intended": 364,
+      "source": "random"
+    },
+    {
+      "node": 364,
+      "intended": 370,
+      "source": "random"
+    },
+    {
+      "node": 394,
+      "intended": 397,
+      "source": "random"
+    },
+    {
+      "node": 443,
+      "intended": 442,
+      "source": "random"
+    },
+    {
+      "node": 444,
+      "intended": 351,
+      "source": "random"
+    },
+    {
+      "node": 469,
+      "intended": 243,
+      "source": "random"
+    },
+    {
+      "node": 533,
+      "intended": 530,
+      "source": "random"
+    },
+    {
+      "node": 557,
+      "intended": 404,
+      "source": "random"
+    },
+    {
+      "node": 580,
+      "intended": 280,
+      "source": "random"
+    }
+  ]
+}

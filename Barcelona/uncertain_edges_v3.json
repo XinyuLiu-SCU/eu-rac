@@ -1,0 +1,302 @@
+{
+    "386_245":  {
+                    "origin":  386,
+                    "destination":  245,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  283,
+                                                "v":  284,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  2
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "203_374":  {
+                    "origin":  203,
+                    "destination":  374,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  415,
+                                                "v":  342,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  1
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "297_245":  {
+                    "origin":  297,
+                    "destination":  245,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  272,
+                                                "v":  285,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5556,
+                                                "alternative_count":  2
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "436_374":  {
+                    "origin":  436,
+                    "destination":  374,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  356,
+                                                "v":  417,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.4545,
+                                                "alternative_count":  3
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "454_374":  {
+                    "origin":  454,
+                    "destination":  374,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  349,
+                                                "v":  392,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  2
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "213_295":  {
+                    "origin":  213,
+                    "destination":  295,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  477,
+                                                "v":  427,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  1
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "389_295":  {
+                    "origin":  389,
+                    "destination":  295,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  418,
+                                                "v":  423,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  1
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "464_295":  {
+                    "origin":  464,
+                    "destination":  295,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  358,
+                                                "v":  357,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5385,
+                                                "alternative_count":  1
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "464_245":  {
+                    "origin":  464,
+                    "destination":  245,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  455,
+                                                "v":  520,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.4545,
+                                                "alternative_count":  2
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "297_374":  {
+                    "origin":  297,
+                    "destination":  374,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  356,
+                                                "v":  417,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5385,
+                                                "alternative_count":  2
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "2_245":  {
+                  "origin":  2,
+                  "destination":  245,
+                  "uncertain_edges":  [
+                                          {
+                                              "u":  310,
+                                              "v":  278,
+                                              "selection":  "midroute_branching_edge",
+                                              "position":  0.5,
+                                              "alternative_count":  2
+                                          }
+                                      ],
+                  "selection_source":  "barcelona_final20.csv",
+                  "uncertainty_mode":  "explicit_intended_edge"
+              },
+    "67_701":  {
+                   "origin":  67,
+                   "destination":  701,
+                   "uncertain_edges":  [
+                                           {
+                                               "u":  630,
+                                               "v":  629,
+                                               "selection":  "midroute_branching_edge",
+                                               "position":  0.5556,
+                                               "alternative_count":  4
+                                           }
+                                       ],
+                   "selection_source":  "barcelona_final20.csv",
+                   "uncertainty_mode":  "explicit_intended_edge"
+               },
+    "475_245":  {
+                    "origin":  475,
+                    "destination":  245,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  463,
+                                                "v":  486,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  1
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "84_374":  {
+                   "origin":  84,
+                   "destination":  374,
+                   "uncertain_edges":  [
+                                           {
+                                               "u":  355,
+                                               "v":  356,
+                                               "selection":  "midroute_branching_edge",
+                                               "position":  0.5,
+                                               "alternative_count":  2
+                                           }
+                                       ],
+                   "selection_source":  "barcelona_final20.csv",
+                   "uncertainty_mode":  "explicit_intended_edge"
+               },
+    "303_245":  {
+                    "origin":  303,
+                    "destination":  245,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  310,
+                                                "v":  278,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  2
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "447_295":  {
+                    "origin":  447,
+                    "destination":  295,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  355,
+                                                "v":  358,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.4615,
+                                                "alternative_count":  3
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "510_967":  {
+                    "origin":  510,
+                    "destination":  967,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  777,
+                                                "v":  766,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  2
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "378_295":  {
+                    "origin":  378,
+                    "destination":  295,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  358,
+                                                "v":  357,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5,
+                                                "alternative_count":  1
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "663_701":  {
+                    "origin":  663,
+                    "destination":  701,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  703,
+                                                "v":  744,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.5556,
+                                                "alternative_count":  1
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                },
+    "335_295":  {
+                    "origin":  335,
+                    "destination":  295,
+                    "uncertain_edges":  [
+                                            {
+                                                "u":  290,
+                                                "v":  289,
+                                                "selection":  "midroute_branching_edge",
+                                                "position":  0.4286,
+                                                "alternative_count":  2
+                                            }
+                                        ],
+                    "selection_source":  "barcelona_final20.csv",
+                    "uncertainty_mode":  "explicit_intended_edge"
+                }
+}

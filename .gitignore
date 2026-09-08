@@ -1,0 +1,43 @@
+.venv_eu_rac/
+.venv*/
+__pycache__/
+*.pyc
+.DS_Store
+
+# Local editor/agent state
+.vscode/
+.claude/
+.codex/
+.agents/
+
+# JavaScript/cache artifacts from local tooling
+node_modules/
+.npm-cache/
+cache/
+
+# Temporary diagnostics and scratch files
+temp/
+.tmp_*.txt
+*.log
+*.bak
+*.bak_*
+
+# Generated experiment artifacts
+checkpoints/
+results/
+*_results/
+*_result/
+*.pt
+*.pth
+*.ckpt
+
+# Generated figures/reports kept outside the public release by default
+ablation_*.pdf
+ablation_*.png
+ablation_*_curve.csv
+*_validation_result.json
+*_migration_report.md
+*_audit_report.md
+# Local public-release audit scratch files
+.audit_*.txt
+.public_py_files.txt
